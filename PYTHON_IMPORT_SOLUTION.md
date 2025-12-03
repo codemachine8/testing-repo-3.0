@@ -13,7 +13,7 @@ ImportError: attempted relative import with no known parent package
 
 **Why it's wrong**:
 - Requires every test file to add sys.path boilerplate
-- Doesn't scale to multiple test files
+- Doesn't scale to multiple test files 
 - Puts the burden on test writers
 - Doesn't support standard Python project structures
 - Won't work for all Python test frameworks
